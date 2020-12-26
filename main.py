@@ -2,7 +2,7 @@ import json
 import mysql.connector
 
 def load_secrets():
-    with open('secrets.json') as json_file:
+    with open('configs/secret.json') as json_file:
         data = json.load(json_file)
         # print(data['host'], data['port'], data['user'], data['password'])
         host, port, user, password = data['host'], int(data['port']), data['user'], data['password']
