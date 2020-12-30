@@ -1,5 +1,8 @@
 [
   {
-    "name": "iris"
+    "name": "iris",
+    "database": "IrisTest",
+    "table": "iris",
+    "file_path": "configs/schema/iris_schema.json"
   }
 ]
